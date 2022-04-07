@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Poppins:wght@200&family=Roboto&family=Titillium+Web&family=Zen+Old+Mincho&display=swap");
+.Rotate {
+  color: Black;
+  background: orange;
+  width: 100%;
+  height: 150px;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Zen Old Mincho", serif;
+  margin-bottom: 10%;
+  /* font-weight: bold; */
+  /* overflow: hidden; */
+}
+.Rotate p {
+  font-size: 5vw;
+  margin-top: 100px;
+  padding-top: 30px;
+  margin-left: 30%;
+}
+.words {
+  margin-top: -180px;
+  margin-right: 10px;
+  font-size: 5vw;
+  overflow: hidden;
+}
+.words span {
+  margin-left: 55%;
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  animation: spin_words 6s infinite;
+  overflow: hidden;
+  /* color: white; */
+}
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-412%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 440px) {
+  .Rotate {
+    height: 85px;
+  }
+  .words {
+    margin-top: -40px;
+  }
+  @keyframes spin_words {
+    10% {
+      transform: translateY(-100%);
+    }
+    25% {
+      transform: translateY(-112%);
+    }
+    35% {
+      transform: translateY(-200%);
+    }
+    50% {
+      transform: translateY(-212%);
+    }
+    60% {
+      transform: translateY(-300%);
+    }
+    75% {
+      transform: translateY(-312%);
+    }
+    85% {
+      transform: translateY(-400%);
+    }
+    100% {
+      transform: translateY(-412%);
+    }
+  }
+}

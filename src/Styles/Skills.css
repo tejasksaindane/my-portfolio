@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Poppins:wght@200&family=Roboto&family=Titillium+Web&family=Zen+Old+Mincho&display=swap");
+.Skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10% 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.skill-header {
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  font-weight: bold;
+  color: orange;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Zen Old Mincho", serif;
+  padding-bottom: 20px;
+}
+.skills-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.s-img {
+  width: 180px;
+  padding: 15px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 420px) {
+  .s-img {
+    width: 100px;
+    padding: 15px;
+  }
+}
+@media screen and (min-device-width: 421px) and (max-device-width: 768px) {
+  .s-img {
+    width: 100px;
+    padding: 10px;
+  }
+}

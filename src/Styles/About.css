@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Poppins:wght@200&family=Roboto&family=Titillium+Web&family=Zen+Old+Mincho&display=swap");
+.About {
+  color: white !important;
+  display: flex;
+  width: 100%;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Zen Old Mincho", serif;
+}
+.About-container {
+  display: flex;
+  flex: 1;
+  width: 80%;
+  margin: 4% 10%;
+}
+.About-container-left {
+  background-color: #ffa500;
+  flex: 0.1;
+}
+.About-container-left h1 {
+  font-size: 3vw;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding-top: 60px;
+}
+.About-container-right {
+  flex: 0.9;
+}
+.About-container-top {
+  margin: 6%;
+}
+.About-container-top label {
+  font-size: 2.3vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: #ffa500;
+}
+.About-container-top p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  font-size: 1.6vw;
+  letter-spacing: 1px;
+  color: gray;
+}
+.contact {
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 5% 10%;
+  border: 2px solid orange;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Zen Old Mincho", serif;
+}
+.contact-left {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 15px solid orange;
+}
+.contact-left label {
+  color: orange;
+  font-size: 2vw;
+}
+.contact-left address {
+  color: gray;
+  font-size: 2.5vw;
+}
+.contact-right {
+  background-color: #ffa500;
+  flex: 0.1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact-right h1 {
+  font-size: 3vw;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume a {
+  text-decoration: none;
+  color: orange;
+  font-size: 2vw;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Zen Old Mincho", serif;
+  border: 3px solid Orange;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.resume a:hover {
+  background: orange;
+  color: black;
+  font-weight: bold;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 599px) {
+  .About-container-top p {
+    margin: 5px;
+    padding: 6px;
+  }
+}
