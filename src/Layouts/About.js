@@ -3,7 +3,7 @@ import "../Styles/About.css";
 import Footer from "../Components/Footer";
 import Resume from "../Lotties/My-Resume4.pdf";
 import "animate.css";
-
+import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
 const About = () => {
   return (
     <>
@@ -47,9 +47,14 @@ const About = () => {
         </div>
       </div>
       <div className="resume">
-        <a href={Resume} download="Tejas_Resume">
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          href={Resume}
+          download="Tejas_Resume"
+        >
           Download Resume
-        </a>
+        </motion.a>
       </div>
       <Footer />
     </>

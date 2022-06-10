@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);

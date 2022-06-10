@@ -16,7 +16,8 @@
   margin: 4% 10%;
 }
 .About-container-left {
-  background-color: #ffa500;
+  /* background-color: #ffa500; */
+  background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
   flex: 0.1;
 }
 .About-container-left h1 {
@@ -42,6 +43,7 @@
   justify-content: center;
   letter-spacing: 2px;
   color: #ffa500;
+  /* color: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%); */
 }
 .About-container-top p {
   display: flex;
@@ -82,7 +84,8 @@
   font-size: 2.5vw;
 }
 .contact-right {
-  background-color: #ffa500;
+  /* background-color: #ffa500; */
+  background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
   flex: 0.1;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -103,22 +106,23 @@
 }
 .resume a {
   text-decoration: none;
-  color: orange;
+  color: black;
   font-size: 2vw;
   font-family: "Fira Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Titillium Web", sans-serif;
   font-family: "Zen Old Mincho", serif;
-  border: 3px solid Orange;
+  /* border: 3px solid Orange; */
   padding: 10px 15px;
   border-radius: 4px;
+  background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
 }
-.resume a:hover {
+/* .resume a:hover {
   background: orange;
   color: black;
   font-weight: bold;
-}
+} */
 @media screen and (min-device-width: 320px) and (max-device-width: 599px) {
   .About-container-top p {
     margin: 5px;

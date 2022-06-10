@@ -24,7 +24,7 @@ const Certification = () => {
 
   return (
     <>
-      //TODO one
+      {/* TODO one */}
       {loading ? (
         <div className="wrapper">
           <div className="card">
@@ -38,7 +38,7 @@ const Certification = () => {
       ) : (
         Loader()
       )}
-      //TODO two
+      {/* //TODO two */}
       <div className="wrapper">
         <div className="card">
           <img src={Netflix} alt="" />
@@ -48,7 +48,7 @@ const Certification = () => {
           </div>
         </div>
       </div>
-      //TODO three
+      {/* //TODO three */}
       <div className="wrapper">
         <div className="card">
           <img src={Airbnb} alt="" />
@@ -58,7 +58,7 @@ const Certification = () => {
           </div>
         </div>
       </div>
-      //TODO FOUR
+      {/* //TODO FOUR */}
       <div className="wrapper">
         <div className="card">
           <img src={Whatsapp} alt="" />

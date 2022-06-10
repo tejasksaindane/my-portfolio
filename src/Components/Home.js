@@ -6,6 +6,7 @@ import Rotate from "./Rotate";
 import SliderGallery from "./SliderGallery";
 import Footer from "./Footer";
 import Resume from "../Lotties/My-Resume4.pdf";
+import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
 
 const Home = () => {
   return (
